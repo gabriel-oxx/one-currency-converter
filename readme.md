@@ -13,7 +13,9 @@ O Currency Converter é uma aplicação Java que permite aos usuários converter
 5. A aplicação exibirá uma lista das conversões realizadas (caso exista mais de uma conversão realizada, ou simplesmente a única conversão realizada).
 6. Antes de ser encerrada, a aplicação perguntará ao usuário se ele deseja salvar as conversões realizadas.
 ## Requisitos
-- Java 22: A aplicação foi desenvolvida e testada com a versão 22 do Java. Certifique-se de ter esta versão do Java instalada em seu sistema.
+- A aplicação foi desenvolvida e testada com a versão 22 do Java, mas deve funcionar com Java a partir da versão 11.
+- Gson: A aplicação utiliza o Gson para realizar a conversão de objetos Java em JSON e vice-versa. Para utilizar esta biblioteca, é necessário adicioná-la ao projeto. No desenvolvimento do projeto foi utilizada a versão 2.10.1 do Gson.
+- uma chave de API: Para utilizar a API do CurrencyApi é necessário obter uma chave de API. Para obter uma chave, é necessário se cadastrar em uma conta no CurrencyApi e gerá-la.
 ## Estrutura do Projeto
 - src/: Contém os arquivos de código-fonte da aplicação.
 - Main.java: Ponto de entrada da aplicação, onde a lógica de conversão de moedas é implementada.
